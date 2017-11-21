@@ -1,0 +1,82 @@
+PODS:
+  - Alamofire (4.5.1)
+  - BMPlayer (1.0.1):
+    - BMPlayer/Full (= 1.0.1)
+  - BMPlayer/Core (1.0.1)
+  - BMPlayer/Full (1.0.1):
+    - BMPlayer/Core
+    - NVActivityIndicatorView (~> 4.0.0)
+    - SnapKit (~> 4.0.0)
+  - BonMot (5.0)
+  - ChameleonFramework (2.1.0):
+    - ChameleonFramework/Default (= 2.1.0)
+  - ChameleonFramework/Default (2.1.0)
+  - HCSStarRatingView (1.5)
+  - Hero (1.0.0)
+  - Kingfisher (4.2.0)
+  - Moya (10.0.0):
+    - Moya/Core (= 10.0.0)
+  - Moya/Core (10.0.0):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - NVActivityIndicatorView (4.0.0):
+    - NVActivityIndicatorView/Presenter (= 4.0.0)
+  - NVActivityIndicatorView/Presenter (4.0.0)
+  - Result (3.2.4)
+  - SnapKit (4.0.0)
+  - SwiftIcons (1.5.1)
+  - XLPagerTabStrip (8.0.0)
+  - YoutubeSourceParserKit (0.2.4)
+
+DEPENDENCIES:
+  - BMPlayer
+  - BonMot
+  - ChameleonFramework
+  - HCSStarRatingView
+  - Hero (from `https://github.com/lkzhao/Hero`)
+  - Kingfisher
+  - Moya
+  - SnapKit
+  - SwiftIcons (from `https://github.com/ranesr/SwiftIcons`)
+  - XLPagerTabStrip
+  - YoutubeSourceParserKit (from `https://github.com/lennet/YoutubeSourceParserKit`, branch `master`)
+
+EXTERNAL SOURCES:
+  Hero:
+    :git: https://github.com/lkzhao/Hero
+  SwiftIcons:
+    :git: https://github.com/ranesr/SwiftIcons
+  YoutubeSourceParserKit:
+    :branch: master
+    :git: https://github.com/lennet/YoutubeSourceParserKit
+
+CHECKOUT OPTIONS:
+  Hero:
+    :commit: 1c8c3e5804041115eea9d64d1f27ea919a909056
+    :git: https://github.com/lkzhao/Hero
+  SwiftIcons:
+    :commit: 420ccbddcdf548df43b60715bb3afefe978435dd
+    :git: https://github.com/ranesr/SwiftIcons
+  YoutubeSourceParserKit:
+    :commit: 98f3bcf9886c20eefd82249a6cfbb3068ad86b80
+    :git: https://github.com/lennet/YoutubeSourceParserKit
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  BMPlayer: 44eebf06eb01450dd14ea74b27d07c5222f0eed1
+  BonMot: 3ff354572f2aa9295d3760947f7578490cb810be
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  HCSStarRatingView: 1d18f79654735514cd6f00e6d90e38cb6320dc31
+  Hero: a0481f995d78951544614a8e828f7eb374e73c06
+  Kingfisher: 9ee7e788d8ba07c3f21ce0d43f33cec310a4f781
+  Moya: adb58b0f4e58430db43cc6e2f6ebab1836501186
+  NVActivityIndicatorView: 54c9b93b6f25a4f467512680c0c90c09a1095cf2
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SwiftIcons: b20641adce6b71fcb2e72389b4b5f2e87252df99
+  XLPagerTabStrip: d1ab378af0923320ec0b5eab11d7b2f803d31261
+  YoutubeSourceParserKit: d1506222a62718ed41f18ab52ebbc1b1d9ecabcc
+
+PODFILE CHECKSUM: 85a7f4ef2ad9baafe6205644d2f3e62ed14ada96
+
+COCOAPODS: 1.4.0.beta.2
