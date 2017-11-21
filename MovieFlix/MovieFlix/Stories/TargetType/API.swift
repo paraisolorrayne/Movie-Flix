@@ -12,8 +12,7 @@ import YoutubeSourceParserKit
 
 class API {
 	
-	static let apiKey = "625a7cbd9e0ae06da951620f6f0015d1"
-	
+	static let apiKey: String = "625a7cbd9e0ae06da951620f6f0015d1"
 	//2. Debug
 	static let provider = MoyaProvider<MovieTarget>(plugins: [NetworkLoggerPlugin(verbose: true)])
 	

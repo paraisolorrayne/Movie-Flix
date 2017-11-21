@@ -18,6 +18,8 @@ enum MovieTarget {
 
 extension MovieTarget: TargetType {
 
+	static let apiKey = "625a7cbd9e0ae06da951620f6f0015d1"
+	
 	var baseURL: URL {
 		guard let url = URL(string: "https://api.themoviedb.org/3/movie/") else { fatalError("baseURL could not be configured") }
 		return url
